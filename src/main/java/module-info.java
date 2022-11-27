@@ -1,10 +1,10 @@
-module com.example.clienttemplateforcardsupdate2122 {
+module com.example.servertemplateforcardsupdate2122 {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.desktop;
     requires java.logging;
+    requires java.desktop;
 
 
-    opens com.example.clienttemplateforcardsupdate2122 to javafx.fxml;
-    exports com.example.clienttemplateforcardsupdate2122;
+    opens com.example.servertemplateforcardsupdate2122 to javafx.fxml;
+    exports com.example.servertemplateforcardsupdate2122;
 }
